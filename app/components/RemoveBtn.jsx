@@ -1,7 +1,7 @@
 import React from 'react'
 import { HiOutlineTrash } from 'react-icons/hi'
 
-export default function RemoveBtn() {
+export default function RemoveBtn({id}) {
   return (
       <div>
           <button className='text-red-400'>
